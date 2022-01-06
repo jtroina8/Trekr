@@ -11,6 +11,8 @@
 		840F178D2783F48800F4608E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F178C2783F48800F4608E /* ContentView.swift */; };
 		840F178F2783F48900F4608E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840F178E2783F48900F4608E /* Assets.xcassets */; };
 		840F17922783F48900F4608E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840F17912783F48900F4608E /* Preview Assets.xcassets */; };
+		840F179A2783F73600F4608E /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 840F17982783F73600F4608E /* locations.json */; };
+		840F179B2783F73600F4608E /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 840F17992783F73600F4608E /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		840F178C2783F48800F4608E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		840F178E2783F48900F4608E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840F17912783F48900F4608E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840F17982783F73600F4608E /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = Assets/locations.json; sourceTree = SOURCE_ROOT; };
+		840F17992783F73600F4608E /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = Assets/tips.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				840F178A2783F48800F4608E /* TrekrApp.swift */,
 				840F178C2783F48800F4608E /* ContentView.swift */,
 				840F178E2783F48900F4608E /* Assets.xcassets */,
+				840F17982783F73600F4608E /* locations.json */,
+				840F17992783F73600F4608E /* tips.json */,
 				840F17902783F48900F4608E /* Preview Content */,
 			);
 			path = Trekr;
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				840F17922783F48900F4608E /* Preview Assets.xcassets in Resources */,
+				840F179B2783F73600F4608E /* tips.json in Resources */,
+				840F179A2783F73600F4608E /* locations.json in Resources */,
 				840F178F2783F48900F4608E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
