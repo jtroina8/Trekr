@@ -12,6 +12,8 @@ struct ContentView: View {
         Image("highlands")
             .resizable()
             .scaledToFit()
+        
+        Text("The Highlands")
     }
 }
 
